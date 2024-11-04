@@ -1,0 +1,51 @@
+/* Navigation Style */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    background-color: bisque;
+    padding: 1.5em;
+    text-align: center;
+}
+
+nav li a:hover {
+    background-color: whitesmoke;
+    padding: 1em;
+}
+
+/* Footer Style */
+
+footer {
+    padding: 1em;
+    background-color: bisque;
+}
+
+/* Global Styles */
+
+h1, h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} 
+
+h3, p, li {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+/* Body Style */
+
+main {
+    padding: 2em;
+}
+
+hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+
