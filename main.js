@@ -1,3 +1,7 @@
+// Print todays date to dev console
+const today = new Date();
+console.log(today);
+
 // Code for intro message
 const time = new Date().getHours();
 let greeting;
