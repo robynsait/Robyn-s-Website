@@ -23,7 +23,8 @@
 
     <!-- Hero Section -->
      <main>
-        <h1>Hi, I'm Robyn.</h1>
+        
+        <h1 id="greeting"></h1>
         <h2>I'm an Interactive Design Diploma student at SAIT, majoring in UX Design.</h2>
         <p>Outside of class time, I love playing video games and board games, as well as spending time with my partner Josh, and our dog, Baker.</p>
         
@@ -33,11 +34,14 @@
             <li>Longvinter</li>
             <li>Teamfight Tactics</li>
         </ol></section>
+        <button id="btnAlert" type="button" onmouseover="hoverText()" onmouseout="resetText()" onclick="btnAlert()">What does this button do?</button>
+        <ol id="numbers"></ol>
     </main>
 
      <!-- Footer Section -->
      <footer>
-        <p>Copyright &copy; Robyn Paradis 2024</p>
+        <p>Copyright &copy; Robyn Paradis</p><p id ="copyyear"></p>
     </footer> 
+    <script src="main.js"></script>
 </body>   
 </html>
